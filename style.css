@@ -14,6 +14,20 @@ colors:
 */
 * {
     font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+}
+
+body {
+    margin: 0;
+    background: url('./img/bg.jpg');
+}
+
+body > div {
+    background: white;
+    max-width: 75%;
+    margin: 0.5rem auto 2rem;
+    border: 2px solid #ffd24a;
+    border-radius: 3px;
 }
 
 h1, h2, h3 {
@@ -31,17 +45,35 @@ h1, h2, h3 {
 }
 .main_navigation{
     padding-top: 1.5rem;
-    padding-left: 1.5rem;
+    padding-left: 1rem;
 }
 .main_navigation a{
     text-decoration: none; 
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     color: white;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 5px; 
 }
+
+#page_content{
+    margin: 1rem;
+}
+
+#page_content section:first-child {
+    padding-top: 0.5rem;
+}
+
+p a {
+    color: #1fabe5;
+}
+
+ul {
+    font-weight: bold;
+}
+
 section{
-    border-bottom: 4px solid gray
+    border-bottom: 4px solid gray;
+    padding-bottom: 1rem;
 }
 
 /* table styling */
