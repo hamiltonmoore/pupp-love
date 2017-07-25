@@ -1,0 +1,105 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #1fabe5;
+}
+#site_header{
+    background-color: #ff8523;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+
+}
+#logo{
+    padding-bottom: 10px;
+    padding-left: 1.2rem;
+}
+.main_navigation{
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+}
+.main_navigation a{
+    text-decoration: none; 
+    padding: 1rem;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px; 
+}
+section{
+    border-bottom: 4px solid gray
+}
+
+/* table styling */
+
+table{
+    margin-bottom: 15px;
+}
+table, th, td{
+     border: 1px solid #046c97;
+     border-collapse: collapse;
+     padding: 1rem;
+     padding-right: 6rem;
+     margin: 10px;
+}
+thead{
+    background-color: #1fabe5;
+}
+table img{
+    height: 125px;
+    width: 125px;
+}
+
+/* form styling */
+
+
+form{
+    padding: 1rem;
+    background-color: #eee;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.name{
+    padding: 1rem;
+    background-color: #ff8523;
+    border-radius: 4px;
+    color: white;
+}
+.city_container{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#first_name, #last_name{
+    border-radius: 2px;
+    
+}
+
+
+#bio{
+    border-radius: 4px;
+    border: 1px solid #1fabe5;
+    padding-right: 57rem;
+}
+#submit_button{
+    font-size: 22px;
+    padding: 1rem;
+    background-color: #1fabe5;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid #1fabe5;
+    border-radius: 4px;
+}
