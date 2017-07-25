@@ -72,7 +72,7 @@ ul {
 }
 
 section{
-    border-bottom: 4px solid gray;
+    border-bottom: 4px solid #ddd;
     padding-bottom: 1rem;
 }
 
@@ -81,19 +81,24 @@ section{
 table{
     margin-bottom: 15px;
 }
-table, th, td{
+
+table, thead, td{
      border: 1px solid #046c97;
      border-collapse: collapse;
      padding: 1rem;
-     padding-right: 6rem;
-     margin: 10px;
 }
+
 thead{
     background-color: #1fabe5;
+    color: #fff;
+}
+
+table tbody tr td {
+    border: 1px solid #1fabe5;
 }
 table img{
-    height: 125px;
-    width: 125px;
+    height: 50px;
+    width: auto;
 }
 
 /* form styling */
@@ -105,30 +110,51 @@ form{
     border-radius: 4px;
     margin-bottom: 15px;
 }
+
 .name{
     padding: 1rem;
     background-color: #ff8523;
     border-radius: 4px;
     color: white;
 }
+
+.name input {
+    padding: 0.5rem 0.2rem;
+    border-color: #fff;
+    width: 30%; 
+}
+
 .city_container{
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
 #first_name, #last_name{
-    border-radius: 2px;
-    
+     border-radius: 2px; 
+}
+
+#first_name {
+    margin-right: 1rem; 
 }
 
 
 #bio{
     border-radius: 4px;
     border: 1px solid #1fabe5;
-    padding-right: 57rem;
 }
+
+form textarea {
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+form div:nth-child(3) {
+    margin-right: 0.5rem;
+}
+
 #submit_button{
-    font-size: 22px;
-    padding: 1rem;
+    font-weight: bold; 
+    padding: 0.75rem 1rem;
     background-color: #1fabe5;
     color: white;
     text-transform: uppercase;
